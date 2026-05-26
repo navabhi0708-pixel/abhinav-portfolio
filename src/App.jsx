@@ -250,7 +250,8 @@ function About() {
   const ref = useRef(null);
   const inView = useInView(ref, { once:true,margin:"-100px" });
   const socials = [
-    { icon:GitBranch, label:"GitHub",       href:"https://github.com" },
+    { icon:GitBranch, label:"GitHub", href:"https://github.com/navabhi0708-pixel" },
+    { icon:ExternalLink, label:"Resume", href:"/Abhinav_Kumar_Singh_.pdf" },
     
     
   ];
@@ -361,7 +362,8 @@ function Footer() {
   const ref = useRef(null);
   const inView = useInView(ref, { once:true,margin:"-80px" });
   const socials = [
-    { icon:GitBranch, label:"GitHub",       href:"https://github.com" },
+    { icon:GitBranch, label:"GitHub", href:"https://github.com/navabhi0708-pixel" },
+    
     
     
   ];
